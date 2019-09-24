@@ -22,6 +22,9 @@ background-color: #367790 !important;
 .p-blue-light-2 {
 background-color: #4788a1 !important;
 }
+.p-blue-light-3 {
+background-color: #5899b2 !important;
+}
 .p-blue-dark-1 {
 background-color: #14556e !important;
 }
@@ -141,7 +144,7 @@ color: #ad2c06 !important;
 filter: brightness(110%);
 }
 #cta {
-background-image: url(../img/cta-img.png);
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../img/cta-img.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -167,7 +170,7 @@ height: 2.5rem;
     }
 }
 .section-1-btn button {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 @media screen and (max-width:600px){
