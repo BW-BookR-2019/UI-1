@@ -155,19 +155,17 @@ margin-bottom: 20px;
 .navbar-fixed {
 height: 2.5rem;
 }
-
-nav div img {
-    margin-top: 12px;
-    margin-left: 15px;
-    ;
+#logo {
+    padding-top: 5px;
+    padding-left: 5px; 
+    height: 60px;
 }
-
-@media screen and (max-width: 600px) {
-    nav div img {
-        margin-bottom: 15px;
+@media screen and (max-width:600px){
+    #logo {
+        padding-left: 0px;
+        height: 50px;
     }
 }
-
 .section-1-btn button {
     margin-top: 30px;
     margin-bottom: 10px;
